@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Titon - où manger ? 🍔</name>
+    <description>Adresses à proximité du bureau</description>
+    <Style id="icon-1517-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1517-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1517-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1517-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1517-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1517-FBC02D-nodesc-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1517-FBC02D-nodesc-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1517-FBC02D-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1517-FBC02D-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1517-FBC02D-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1577-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1577-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-3949AB-nodesc-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1577-3949AB-nodesc-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1577-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Pour aller vite 🏃</name>
+      <Placemark>
+        <name>Chez Nouilles 🍜</name>
+        <description>nouilles faites maison  </description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3840331,48.8507663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar à momos 🥟</name>
+        <description>tibétains</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3870686,48.8496063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joayo Bastille 🍙</name>
+        <description>coréen</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3850218,48.8501943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sushi Maydo 🍣</name>
+        <description>Sushi (Japonais)</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3839114,48.8452595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fukuyama 🍣</name>
+        <description>japonais</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3894444,48.8447222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les paniers de Lucile 🥗</name>
+        <description>salades</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.385121,48.8496896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les Copains du Faubourg 🥐 Carte TR acceptée</name>
+        <description>Boulangerie</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3848959,48.8501899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Cantine Incognito 🥣</name>
+        <description>2 bols dont la recette change chaque jour</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3799207,48.8534234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Adar - Traiteur & épicerie 🦪]]></name>
+        <description>méditerranéen</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3837103,48.8512933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paris Hanoï 🥟</name>
+        <description>Vietnamien</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3800083,48.8534389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Épicerie et associés 🥫</name>
+        <description>Epicerie fine</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3831316,48.8523194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drogheria Italiana 🍕</name>
+        <description>Pizzeria (Italien)</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.386787,48.8552218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Boulangerie-Pâtisserie Terroirs d'Avenir 🥐]]></name>
+        <description>Boulangerie</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3846716,48.8514601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Mansouria 🍛</name>
+        <description>Marocain</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3837107,48.8512931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chez Julien & Marielle 🦞]]></name>
+        <description>Poissonerie</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3847162,48.8546353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waly-Fay 🧆</name>
+        <description><![CDATA[Afrique de l'Ouest]]></description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3819387,48.8542519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Cuillère 🥄</name>
+        <description>Français</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.38697,48.850517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chez Hams 🍖</name>
+        <description>Spécialité jambon</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3847299,48.8523477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Breizh Café 🥞</name>
+        <description>Crêperie bretonne</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3846663,48.8524731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jinchan shokudo 🍣</name>
+        <description>Japonais</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3804937,48.850334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blend Hamburger 🍔</name>
+        <description>Burger</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3744885,48.8529706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PAPO, Street food 🍔</name>
+        <description>Burger portugais</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3833985,48.8505548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bozen 🍣</name>
+        <description>Japonais</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3890898,48.8527393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Récolte 🍏</name>
+        <description>Plats maison</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3835966,48.851533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delitaly 🍕</name>
+        <description>Italien</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.382044,48.8505139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trois Fois Plus de Piment 🌶🌶🌶</name>
+        <description>Chinois</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3890678,48.850568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Liberty's Burger 🍔]]></name>
+        <description>Burger</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3784525,48.8492533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boulangerie Magali 🥐</name>
+        <description>Salade et petit déjeuner</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3849571,48.8547051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[L'Echoppe de Paris]]></name>
+        <description>Burgers artisanaux avec pains et sauces maison</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3880104,48.853985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YE LIN 🍜</name>
+        <description><![CDATA[Asiatique, sur place ou à emporter.<br>Les plats cuisinés à la commande sont meilleurs que les plats "traiteurs" déjà présents, et la carte est assez originale. Bo bun poulet 7,50 €<br>https://goo.gl/maps/xLnWJo5tRxQWmo257]]></description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3849321,48.8503968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chez Gotier 🥣</name>
+        <description>Soupes et tartes salées</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3892488,48.850406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Street wok 🍜</name>
+        <styleUrl>#icon-1577-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3836336,48.8501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Négus</name>
+        <description>La cuisine éthiopienne : à déguster sur place</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3893048,48.8504155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Epicerie et Associés Voltaire</name>
+        <description>Bonnes salades et sandwiches</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3879167,48.8529488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baba Zulu</name>
+        <description><![CDATA[Poulet frit sur des gaufres, quelqu'un ?]]></description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3868041,48.8499092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boucherie cacher Franck et Julien Paris</name>
+        <description><![CDATA[Grillades, falafels, traiteur <br>Sur place ou à emporter, ouvert le lundi]]></description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3898884,48.8518797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caffé Shop 🍕</name>
+        <description><![CDATA[Pizza, Foccacia sur place ou à emporter, <br>Fermé le lundi]]></description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3901251,48.8519459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Karaage-ya</name>
+        <description>Spécialité japonaise à basede poulet (à emporter uniquement) https://karaage-ya-charonne.fr/fr/services</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3865651,48.8558809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coriandre 2 Indien 🍛</name>
+        <styleUrl>#icon-1577-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3856801,48.849763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O.T. Bubble 🥪</name>
+        <description>Bubble teas et banh mi (sandwich vietnamien)</description>
+        <styleUrl>#icon-1577-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            2.3843153,48.8524803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Pour se poser 🪑</name>
+      <Placemark>
+        <name>Le Bidule 🍔 Carte TR acceptée</name>
+        <description><![CDATA[Restaurant, brasserie, burgers<br>Bonne cuisine, copieux. Plat du jour 12,50 €, menu du midi entrée + plat ou plat + dessert 14€ ]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            2.3847703,48.8502422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Négus 🍲 carte TR refusée</name>
+        <description>Restaurant Éthiopien, très bon accueil, menu découverte à partager</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            2.3893048,48.8504155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Au petit Panisse 🦪</name>
+        <description>Français / Méditerranéen</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            2.3866803,48.8505092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Menekse 🦪 carte TR acceptée</name>
+        <description>Méditerranéen, Moyen-Orient, Halal</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            2.3778753,48.8515693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Chardenoux Cyril Lignac 🥖</name>
+        <description>Français</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            2.385,48.8527778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurant Laïa 🍕</name>
+        <description>Italien</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            2.388279,48.8526255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les Mascareignes 🥯</name>
+        <description>Créole</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            2.3865781,48.853766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Pour boire un verre 🍺</name>
+      <Placemark>
+        <name><![CDATA[Patrick's - Le Ballon Vert 🍀]]></name>
+        <description>Irish</description>
+        <styleUrl>#icon-1517-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            2.3864371,48.850534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café titon ☕</name>
+        <styleUrl>#icon-1517-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3863957,48.8529103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les Blouses Blanches ☕</name>
+        <styleUrl>#icon-1517-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3831168,48.850093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bluebird ☕</name>
+        <styleUrl>#icon-1517-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3816953,48.8513212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Belle Équipe ☕</name>
+        <styleUrl>#icon-1517-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3820488,48.8538437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Pure Café ☕</name>
+        <styleUrl>#icon-1517-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.383442,48.853289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caffé Shop ☕</name>
+        <styleUrl>#icon-1517-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3902718,48.8519487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Epiconcept</name>
+      <Placemark>
+        <name>Epiconcept 🙋‍♀️</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3861995,48.8522982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
