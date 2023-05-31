@@ -1,11 +1,11 @@
 function randomizeFromFile()
 {
-    const fileExtensions = ['kml', 'kmz'];
+    const fileExtensions = ['kml'];
 
     let file = document.getElementById('kmlFile').files[0];
 
     if ( undefined === file || !fileExtensions.includes(file.name.split('.').pop())) {
-        window.alert('Renseigne un fichier au format .kml ou .kmz stp');
+        window.alert('Renseigne un fichier au format .kml stp');
         return;
     }
 
