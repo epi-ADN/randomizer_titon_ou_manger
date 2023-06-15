@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- JS -->
     <script src="index.js"></script>
@@ -31,16 +31,24 @@
                         </span>
                     </label>
                 </div>
-                <button class="button is-primary is-large field" type="button" onclick="randomizeFromFile()">
-                    <span class="icon">
-                        <i class="fas fa-dharmachakra fa-spin" style="color: #ffffff;"></i>
-                    </span>
-                    <span>Fais tourner la roulette !</span>
-                </button>
+                <div class="field select is-link is-multiple">
+                    <label class="label" for="folders-filter">Filtre</label>
+                    <div class="control">
+                        <select id="folders-filter" multiple></select>
+                    </div>
+                </div>
+                <div class="field">
+                    <button class="button is-primary is-large field" type="button" onclick="randomizeFromFile()">
+                        <span class="icon">
+                            <i class="fas fa-dharmachakra fa-spin" style="color: #ffffff;"></i>
+                        </span>
+                        <span>Fais tourner la roulette !</span>
+                    </button>
+                </div>
             </form>
         </section>
         <section class="column">
-            <div class="card" id ="card" hidden>
+            <div class="card" id="card" hidden>
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content">
